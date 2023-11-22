@@ -16,7 +16,7 @@ import { createRoles } from "./libs/initialSetUp.js";
 const app = express();
 createRoles()
 app.use(cors({
-  origin:{'http://localhost:52300':
+  origin:{'http://localhost:60953':
    'http://localhost:5173'}, //con origin dejo solo los servidores que quiero que se comuniquen, si lo quito le doy entrada a que todos y no a uno en específico
   credentials: true
 })); //Esto permite que todos los dominios se comuniquen en el mismo servidor
