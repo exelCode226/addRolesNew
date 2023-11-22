@@ -1,7 +1,7 @@
 {
   "name": "developingeek",
   "version": "1.0.0",
-  "description": "A MERN CRUD with Authentication",
+  "description": "DevelopinGeek",
   "main": "index.js",
   "type": "module",
   "scripts": {
